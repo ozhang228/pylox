@@ -42,6 +42,7 @@ class PyLox:
 
     @staticmethod
     def error(line_num: int, message: str) -> None:
+        # TODO: show the line that errored
         print(f"[line {line_num}]: {message}")
 
 
